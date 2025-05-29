@@ -1,5 +1,6 @@
 .footer {
   background-color: var(--bg-footer);
+  height: var(--google-footer-height);
 }
 
 .footer__top {

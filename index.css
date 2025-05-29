@@ -1,6 +1,6 @@
 :root {
   --google-bar-height: 80px;
-  --google-footer-height: 70px;
+  --google-footer-height: 115px;
   --bg-icon-hover: #f1f3f4;
   --bg-button-hover: #1669c1;
   --bg-footer: #f2f2f2;
@@ -19,5 +19,12 @@ body {
   color: var(--text-color);
   font-size: 14px;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

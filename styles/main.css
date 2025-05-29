@@ -6,7 +6,6 @@
   flex-direction: column;
   height: calc(100vh - var(--google-bar-height) - var(--google-footer-height));
   position: relative;
-  z-index: 1;
 }
 
 .title {
@@ -26,4 +25,9 @@
 }
 .title__green {
   color: #34a853;
+}
+
+.logo__image {
+  height: 100px;
+  width: 100px;
 }
