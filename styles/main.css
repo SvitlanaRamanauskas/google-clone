@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  height: calc(100vh - var(--google-bar-height) - var(--google-footer-height));
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 92px;
+}
+
+.title__blue {
+  color: #4285f4;
+}
+.title__red {
+  color: #ea4335;
+}
+.title__yellow {
+  color: #fbbc05;
+}
+.title__green {
+  color: #34a853;
+}

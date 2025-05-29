@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/search.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav nav">
+        <ul class="header__list">
+          <li class="header__item">Gmail</li>
+          <li class="header__item">Зображення</li>
+          <li class="header__item">
+            <img src="./icons/menu-apps.png" alt="apps" class="header__icon" />
+          </li>
+          <li class="header__item">
+            <button class="header__button">Увійти</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="main__title">
+        <span class="title title__blue">G</span>
+        <span class="title title__red">o</span>
+        <span class="title title__yellow">o</span>
+        <span class="title title__blue">g</span>
+        <span class="title title__green">l</span>
+        <span class="title title__red">e</span>
+      </div>
+
+      <div class="main__input search">
+        <img
+          src="./icons/google-search.png"
+          alt="search"
+          class="search__icon search__icon--loop"
+        />
+        <input
+          type="text"
+          class="search__input"
+          placeholder="Шукайте в Google або введіть URL-адресу"
+        />
+        <div class="search__icon-wrapper">
+          <img
+            src="./icons/google_keyboard.png"
+            alt="keyboard"
+            class="search__icon search__icon--keyboard"
+          />
+          <img
+            src="./icons/google_mic_icon.png"
+            alt="mic"
+            class="search__icon search__icon--mic"
+          />
+          <img
+            src="./icons/google_cam.png"
+            alt="camera"
+            class="search__icon search__icon--cam"
+          />
+        </div>
+      </div>
+
+      <div class="main__buttons buttons">
+        <div class="buttons__top">
+          <button class="button">Пошук Google</button>
+          <button class="button">Мені пощастить</button>
+        </div>
+
+        <div class="buttons__bottom">
+          <button class="button">
+            <span>Мова Google:</span>
+            <span class="button__text--lang">English</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__top footer__part">
+        <p class="footer__top-text">Україна</p>
+      </div>
+      <div class="footer__bottom footer__part">
+        <nav class="footer__nav footer__nav--left">
+          <ul class="footer__list">
+            <li class="footer__item">Про Google</li>
+            <li class="footer__item">Реклама</li>
+            <li class="footer__item">Для бізнесу</li>
+            <li class="footer__item">Як працює пошук</li>
+          </ul>
+        </nav>
+
+        <nav class="footer__nav footer__nav--right">
+          <ul class="footer__list">
+            <li class="footer__item">Конфіденційність</li>
+            <li class="footer__item">Умови</li>
+            <li class="footer__item">Налаштування</li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
